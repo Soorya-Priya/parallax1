@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    height: 100%;
+    background-color: aliceblue;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+.Logo{
+    font-size: 2rem;
+    color: turquoise;
+    pointer-events: none;
+    margin-right: 270px;
+}
+.navigation a{
+    text-decoration: none;
+    color: turquoise;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 0 10px;
+   
+}
+.navigation a:hover, .navigation .active
+{
+    background-color: #003329;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+#text{
+    position: absolute;
+    font-size: 2.5rem;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textcontent{
+    position: relative;
+    background-color: #003329;
+    padding: 50px 200px;
+    text-align:justify;
+   
+}
+.textcontent h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.textcontent p
+{
+    color: white;
+}
